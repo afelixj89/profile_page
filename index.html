@@ -79,7 +79,6 @@
         white-space: nowrap;
         display: flex;
         justify-content: center;
-
       }
       .project {
         display: inline-block;
@@ -111,6 +110,11 @@
         color: #000000;
         margin: 0 10px;
         font-size: 24px;
+      }
+
+      .profileCardDescription {
+        white-space: pre-wrap;
+        word-wrap: break-word;
       }
     </style>
   </head>
@@ -144,7 +148,9 @@
         >
           <img src="profile_images\Pokedex.png" alt="Project 1" />
           <h3>Pokedex</h3>
-          <p>Description</p>
+          <div class="profileCardDescription">
+            <p>This Pokedex website helps you find basic information about any one Pokemon in the Pokemon universe!</p>
+          </div>
         </div>
         <div
           class="project"
@@ -152,7 +158,9 @@
         >
           <img src="profile_images\recipeMundo.png" alt="Project 2" />
           <h3>Recipe Lookup</h3>
-          <p>Description</p>
+          <div class="profileCardDescription">
+            <p>This application utilizes React and an external API from The Meal DB to provide users with a convenient way to search for recipes!</p>
+          </div>
         </div>
         <div
           class="project"
@@ -160,7 +168,9 @@
         >
           <img src="profile_images/Artist.png" alt="Project 3" />
           <h3>Artist Lookup</h3>
-          <p>Description</p>
+          <div class="profileCardDescription">
+            <p>This website enables users to search for artists and perform full CRUD operations including adding, editing, updating, and deleting artists. It utilizes an external API that provides a prepopulated roster of artists with discography links.</p>
+          </div>
         </div>
       </div>
       <div class="social-icons">
