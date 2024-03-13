@@ -76,6 +76,12 @@ body {
     padding: 5px 10px;
     border-radius: 20px;
     box-shadow: 0 0 15px rgba(125, 121, 121, 0.925);
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .skills li:hover {
+    background-color: #6d9267; /* Change background color on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add shadow effect on hover */
   }
   
   .projects {
