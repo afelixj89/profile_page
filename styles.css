@@ -68,11 +68,11 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   }
   
   .skills li {
-    display: inline-block;
-    margin-right: 10px;
+    margin: 10px;
     background-color: #8da690;
     color: #fff;
     padding: 5px 10px;
