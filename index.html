@@ -1,193 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Software Engineer Profile</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
-    <!-- Add Font Awesome library -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Anta&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        background-color: #373737;
-        scroll-behavior: smooth;
-        font-family: "Anta", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      }
 
-      .container {
-        max-width: 100%;
-        margin: 20px auto;
-        padding: 20px;
-        background-color: #b6c2b566;
-        border-radius: 8px;
-        box-shadow: 0 0 15px rgba(125, 121, 121, 0.925);
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Software Engineer Profile</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-      h2 {
-        text-align: center;
-        font-size: xx-large;
-      }
-      .profile {
-        text-align: center;
-      }
-      .profile img {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        margin-bottom: 20px;
-        box-shadow: 0 0 15px rgba(125, 121, 121, 0.925);
-      }
-      .profile h1 {
-        margin-bottom: 10px;
-      }
-      .profile p {
-        margin-bottom: 10px;
-      }
-      .skills {
-        margin-top: 30px;
-      }
-      .skills ul {
-        list-style-type: none;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-      }
-      .skills li {
-        display: inline-block;
-        margin-right: 10px;
-        background-color: #8da690;
-        color: #fff;
-        padding: 5px 10px;
-        border-radius: 20px;
-        box-shadow: 0 0 15px rgba(125, 121, 121, 0.925);
-      }
-      .projects {
-        margin-top: 30px;
-        overflow-x: auto;
-        white-space: nowrap;
-        display: flex;
-        justify-content: center;
-      }
-      .project {
-        display: inline-block;
-        width: 300px;
-        height: 450px;
-        margin-right: 20px;
-        background-color: #f9f9f9;
-        border-radius: 8px;
-        padding: 20px;
-        cursor: pointer;
-      }
-      .project:hover {
-        background-color: #eaeaea;
-      }
-      .project img {
-        width: 100%;
-        height: 200px;
-        border-radius: 8px;
-        margin-bottom: 10px;
-      }
-      .project h3 {
-        margin-bottom: 10px;
-      }
-      .social-icons {
-        text-align: center;
-        margin-top: 30px;
-      }
-      .social-icons a {
-        color: #000000;
-        margin: 0 10px;
-        font-size: 24px;
-      }
-
-      .profileCardDescription {
-        white-space: pre-wrap;
-        word-wrap: break-word;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <div class="profile">
-        <img src="profile_images\Ant.jpg" alt="Profile Picture" />
-        <h1>Antonio Felix</h1>
-        <p>Software Engineer</p>
-        <p>afelixj89@gmail.com</p>
-      </div>
-      <div class="skills">
-        <h2>Skills</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>Node.Js</li>
-          <li>MongoDB</li>
-          <li>Python</li>
-          <li>SQL</li>
-          <li>MERN</li>
-          <li>Github</li>
-        </ul>
-      </div>
-      <div class="projects">
-        <div
-          class="project"
-          onclick="location.href='https://afelixj89.github.io/Pokedex/';"
-        >
-          <img src="profile_images\Pokedex.png" alt="Project 1" />
-          <h3>Pokedex</h3>
-          <div class="profileCardDescription">
-            <p>This Pokedex website helps you find basic information about any one Pokemon in the Pokemon universe!</p>
-          </div>
-        </div>
-        <div
-          class="project"
-          onclick="location.href='https://recipemundo.netlify.app/';"
-        >
-          <img src="profile_images\recipeMundo.png" alt="Project 2" />
-          <h3>Recipe Lookup</h3>
-          <div class="profileCardDescription">
-            <p>This application utilizes React and an external API from The Meal DB to provide users with a convenient way to search for recipes!</p>
-          </div>
-        </div>
-        <div
-          class="project"
-          onclick="location.href='https://www.example.com/project3';"
-        >
-          <img src="profile_images/Artist.png" alt="Project 3" />
-          <h3>Artist Lookup</h3>
-          <div class="profileCardDescription">
-            <p>This website enables users to search for artists and perform full CRUD operations including adding, editing, updating, and deleting artists. It utilizes an external API that provides a prepopulated roster of artists with discography links.</p>
-          </div>
+<body>
+  <div class="container">
+    <div class="profile">
+      <img src="profile_images\Ant.jpg" alt="Profile Picture" />
+      <h1>Antonio Felix</h1>
+      <p>Software Engineer</p>
+      <p>afelixj89@gmail.com</p>
+    </div>
+    <div class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.Js</li>
+        <li>MongoDB</li>
+        <li>Python</li>
+        <li>SQL</li>
+        <li>MERN</li>
+        <li>Github</li>
+      </ul>
+    </div>
+    <div class="projects">
+      <div class="project" onclick="location.href='https://afelixj89.github.io/Pokedex/';">
+        <img src="profile_images\Pokedex.png" alt="Project 1" />
+        <h3>Pokedex</h3>
+        <div class="profileCardDescription">
+          <p>This Pokedex website helps you find basic information about anyone Pokemon in the Pokemon universe!
+          </p>
         </div>
       </div>
-      <div class="social-icons">
-        <a
-          rel="noopener noreferrer "
-          href="https://github.com/afelixj89"
-          target="_blank"
-        >
-          <i class="fab fa-github"></i
-        ></a>
-        <a
-          rel="noopener noreferrer "
-          href="https://www.linkedin.com/in/antonio-felix00/"
-          target="_blank"
-          ><i class="fab fa-linkedin"></i
-        ></a>
+      <div class="project" onclick="location.href='https://recipemundo.netlify.app/';">
+        <img src="profile_images\recipeMundo.png" alt="Project 2" />
+        <h3>Recipe Lookup</h3>
+        <div class="profileCardDescription">
+          <p>This application utilizes React and an external API from The MealDB to provide users with a convenient way to search for recipes!
+          </p>
+        </div>
+      </div>
+      <div class="project" onclick="location.href='https://www.example.com/project3';">
+        <img src="profile_images/Artist.png" alt="Project 3" />
+        <h3>Artist Lookup</h3>
+        <div class="profileCardDescription">
+          <p>This website enables users to search for artists and perform full CRUD operations including adding, editing, updating, and deleting artists. It utilizes an external API that provides a prepopulated roster of artists with discography links.
+          </p>
+        </div>
       </div>
     </div>
-  </body>
+    <div class="social-icons">
+      <a rel="noopener noreferrer " href="https://github.com/afelixj89" target="_blank">
+        <i class="fab fa-github"></i></a>
+      <a rel="noopener noreferrer " href="https://www.linkedin.com/in/antonio-felix00/" target="_blank"><i
+          class="fab fa-linkedin"></i></a>
+    </div>
+  </div>
+</body>
+
 </html>
