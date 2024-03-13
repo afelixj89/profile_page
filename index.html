@@ -1,73 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Software Engineer Profile</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anta&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Software Engineer Profile</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-
-<body>
-  <div class="container">
-    <div class="profile">
-      <img src="profile_images\Ant.jpg" alt="Profile Picture" />
-      <h1>Antonio Felix</h1>
-      <p>Software Engineer</p>
-      <p>afelixj89@gmail.com</p>
-    </div>
-    <div class="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node.Js</li>
-        <li>MongoDB</li>
-        <li>Python</li>
-        <li>SQL</li>
-        <li>MERN</li>
-        <li>Github</li>
-      </ul>
-    </div>
-    <div class="projects">
-      <div class="project" onclick="location.href='https://afelixj89.github.io/Pokedex/';">
-        <img src="profile_images\Pokedex.png" alt="Project 1" />
-        <h3>Pokedex</h3>
-        <div class="profileCardDescription">
-          <p>This Pokedex website helps you find basic information about anyone Pokemon in the Pokemon universe!
-          </p>
-        </div>
+  <body>
+    <div class="container">
+      <div class="profile">
+        <img src="profile_images\Ant.jpg" alt="Profile Picture" />
+        <h1>Antonio Felix</h1>
+        <p>Software Engineer</p>
       </div>
-      <div class="project" onclick="location.href='https://recipemundo.netlify.app/';">
-        <img src="profile_images\recipeMundo.png" alt="Project 2" />
-        <h3>Recipe Lookup</h3>
-        <div class="profileCardDescription">
-          <p>This application utilizes React and an external API from The MealDB to provide users with a convenient way to search for recipes!
-          </p>
-        </div>
+      <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.Js</li>
+          <li>MongoDB</li>
+          <li>Python</li>
+          <li>SQL</li>
+          <li>MERN</li>
+          <li>Github</li>
+        </ul>
       </div>
-      <div class="project" onclick="location.href='https://www.example.com/project3';">
-        <img src="profile_images/Artist.png" alt="Project 3" />
-        <h3>Artist Lookup</h3>
-        <div class="profileCardDescription">
-          <p>This website enables users to search for artists and perform full CRUD operations including adding, editing, updating, and deleting artists. It utilizes an external API that provides a prepopulated roster of artists with discography links.
-          </p>
+      <div class="projects">
+        <div
+          class="project"
+          onclick="location.href='https://afelixj89.github.io/Pokedex/';"
+        >
+          <img src="profile_images\Pokedex.png" alt="Project 1" />
+          <h3>Pokedex</h3>
+          <div class="profileCardDescription">
+            <p>This Pokedex website helps you find basic information about anyone Pokemon in the Pokemon universe!
+            </p>
+          </div>
+        </div>
+        <div
+          class="project"
+          onclick="location.href='https://recipemundo.netlify.app/';"
+        >
+          <img src="profile_images\recipeMundo.png" alt="Project 2" />
+          <h3>Recipe Lookup</h3>
+          <div class="profileCardDescription">
+            <p>This application utilizes React and an external API from The MealDB to provide users with a convenient way to search for recipes!
+            </p>
+          </div>
+        </div>
+        <div
+          class="project"
+          onclick="location.href='https://www.example.com/project3';"
+        >
+          <img src="profile_images/Artist.png" alt="Project 3" />
+          <h3>Artist Lookup</h3>
+          <div class="profileCardDescription">
+            <p>This website enables users to search for artists and perform full CRUD operations including adding, editing, updating, and deleting artists. It utilizes an external API that provides a prepopulated roster of artists with discography links.
+            </p>
+          </div>
         </div>
       </div>
     </div>
     <div class="social-icons">
-      <a rel="noopener noreferrer " href="https://github.com/afelixj89" target="_blank">
-        <i class="fab fa-github"></i></a>
-      <a rel="noopener noreferrer " href="https://www.linkedin.com/in/antonio-felix00/" target="_blank"><i
-          class="fab fa-linkedin"></i></a>
+      <a class="github"
+        rel="noopener noreferrer"
+        href="https://github.com/afelixj89"
+        target="_blank"
+      >
+        <i class="fab fa-github"></i
+      ></a>
+      <a
+        class="linkedin"
+        rel="noopener noreferrer"
+        href="https://www.linkedin.com/in/antonio-felix00/"
+        target="_blank"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <div class="social-icons">
+        <a
+          class="gmail"
+          rel="noopener noreferrer"
+          href="mailto:afelixj89@gmail.com"
+          target="_blank"
+        >
+          <i class="far fa-envelope"></i>
+        </a>
+      </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
