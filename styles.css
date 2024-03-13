@@ -88,8 +88,6 @@ body {
   
   .projects {
     margin-top: 30px;
-    overflow-x: auto;
-    white-space: nowrap;
     display: flex;
     justify-content: center;
   }
@@ -104,6 +102,8 @@ body {
     border-radius: 8px;
     padding: 20px;
     cursor: pointer;
+    overflow-x: auto;
+   
   }
   
   .project:hover {
