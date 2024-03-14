@@ -8,7 +8,7 @@ body {
     background: linear-gradient(-45deg, #d1cbc9, #626061, #0d252e, #192e29);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
-    height: 100vh;
+    /* height: 100vh; */
   }
   
   @keyframes gradient {
@@ -87,16 +87,18 @@ body {
   }
   
   .projects {
-    margin-top: 30px;
+   
     display: flex;
     justify-content: center;
+    height: 100%;
+   
   }
   
   .project {
     display: flex;
     flex-direction: column;
-    width: 270px;
-    height: 250px;
+    width: 33%;
+    height: 20%;
     margin-right: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;
@@ -105,10 +107,11 @@ body {
     overflow-x: auto;
    
   }
+
   
   .project:hover {
     background-color: #eaeaea;
-    height: 425px;
+    height: 50%;
   }
   
   .project img {
