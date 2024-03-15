@@ -92,22 +92,25 @@ h2 {
 .projects {
   display: flex;
   justify-content: space-evenly;
+  height: 40%;
+ 
+  
 }
 
 .project {
-  margin: 20px;
+  margin: 30px;
   background-color: #f9f9f9;
   border-radius: 8px;
   padding: 20px;
   cursor: pointer;
-  /* overflow-x: auto; */
-  width: 20%;
-  height: 30%;
+  overflow-x: auto;
+  width: 50%;
+  height: 50%;
 }
 
 .project:hover {
   background-color: #eaeaea;
-  height: 75%;
+  height: 60%;
 }
 
 .project img {
@@ -157,11 +160,9 @@ h2 {
   opacity: 1;
 }
 
-@media only screen and (max-width: 400px) {
-  .project img {
-    width: 10%;
-    height: 20%;
-  }
-  .projects:hover {
+@media only screen and (max-width: 515px) {
+  .projects {
+    display: none;
+  
   }
 }
