@@ -93,24 +93,25 @@ h2 {
   display: flex;
   justify-content: space-evenly;
   height: 40%;
+  width: 80%;
  
   
 }
 
 .project {
   margin: 30px;
-  background-color: #f9f9f9;
+  background-color: #f9f9f928;
   border-radius: 8px;
   padding: 20px;
   cursor: pointer;
-  overflow-x: auto;
   width: 50%;
   height: 50%;
 }
 
 .project:hover {
   background-color: #eaeaea;
-  height: 60%;
+  height: 80%;
+  overflow-x: auto;
 }
 
 .project img {
@@ -166,7 +167,7 @@ h2 {
 .projectsSmallscreen{
   margin: 10px;
   display: none;
-  
+
 }
 
 
@@ -205,8 +206,25 @@ box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   
   }
   .projectsSmallscreen{
-    display: contents;
+    display: flex;
+    width: 100%;
+    margin: 0;
+  ;
+  
+   
     
+  }
+  .skills {
+    margin-top: 30px;
+    font-size: small;
+  }
+
+  h2{
+    font-size: medium;
+  }
+
+  .projectSmallscreen{
+    font-size: 10px;
   }
  
 }
